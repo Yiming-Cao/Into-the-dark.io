@@ -35,11 +35,15 @@
   },
   "resources": [
     {"id":{"name":"sGround","path":"sprites/sGround/sGround.yy",},},
+    {"id":{"name":"sMonster","path":"sprites/sMonster/sMonster.yy",},},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},},
+    {"id":{"name":"oHouse","path":"objects/oHouse/oHouse.yy",},},
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},},
+    {"id":{"name":"sHouse","path":"sprites/sHouse/sHouse.yy",},},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},},
     {"id":{"name":"oGround","path":"objects/oGround/oGround.yy",},},
+    {"id":{"name":"oMonster","path":"objects/oMonster/oMonster.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [
