@@ -20,6 +20,7 @@
     {"name":"sGround","order":1,"path":"sprites/sGround/sGround.yy",},
     {"name":"sMonster","order":3,"path":"sprites/sMonster/sMonster.yy",},
     {"name":"oHouse","order":4,"path":"objects/oHouse/oHouse.yy",},
+    {"name":"Sprite6","order":5,"path":"sprites/Sprite6/Sprite6.yy",},
     {"name":"sWall","order":2,"path":"sprites/sWall/sWall.yy",},
     {"name":"sHouse","order":4,"path":"sprites/sHouse/sHouse.yy",},
     {"name":"oWall","order":2,"path":"objects/oWall/oWall.yy",},

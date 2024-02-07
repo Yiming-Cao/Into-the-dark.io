@@ -39,6 +39,7 @@
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},},
     {"id":{"name":"oHouse","path":"objects/oHouse/oHouse.yy",},},
+    {"id":{"name":"Sprite6","path":"sprites/Sprite6/Sprite6.yy",},},
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},},
     {"id":{"name":"sHouse","path":"sprites/sHouse/sHouse.yy",},},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},},
