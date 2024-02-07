@@ -1,33 +1,21 @@
 
-key_left = keyboard_check(vk_left);
-key_right = keyboard_check(vk_right);
-key_up = keyboard_check(vk_up);
-key_down = keyboard_check(vk_down);
-key_roll = keyboard_check_pressed(vk_space);
-key_run = keyboard_check(vk_shift);
+key_left = keyboard_check(vk_left) || keyboard_check(ord("A"));
+key_right = keyboard_check(vk_right) || keyboard_check(ord("D"));
+key_up = keyboard_check(vk_up) || keyboard_check(ord("W"));
+key_down = keyboard_check(vk_down) || keyboard_check(ord("S"));
+key_activate = keyboard_check_pressed(ord("E"));
+key_attack = keyboard_check_pressed(ord("J"));
+key_item = keyboard_check(ord("Q"));
+key_roll = keyboard_check_pressed(vk_shift);
 
-var moverl = key_right - key_left;
-var moveud = key_down - key_up;
-hsp = moverl * walkspeed;
-vsp = moveud * walkspeed;
-if (key_run)
-{
-	hsp = moverl * runspeed;
-	vsp = moveud * runspeed;
-	
-}
-if (key_roll)
-{
-	hsp = moverl * walkspeed * rollspeed;
-	vsp = moveud * walkspeed * rollspeed;
-}
+inputDirection = point_direction(0,0,key_right - key_left,key_down - key_up); 
+inputMagnitude = (key_right - key_left != 0) || (key_down - key_up != 0);
+hsp = lengthdir_x(inputMagnitude * walkspeed, inputDirection);
+vsp = lengthdir_y(inputMagnitude * walkspeed, inputDirection);
 
-if (place_meeting(x+hsp,y+vsp,oWall))
-{
-	
-	hsp = 0;
-	vsp = 0;
-}
+
+
+
 
 
 x = x + hsp;

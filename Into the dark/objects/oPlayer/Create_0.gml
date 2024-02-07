@@ -1,8 +1,9 @@
+image_speed = 0;
 hsp = 0;
 vsp = 0;
-walkspeed = 4;
-runspeed = 6;
-rollspeed = 10;
+walkspeed = 2.0;
+runspeed = 4.0;
+rollspeed = 10.0;
 
 
 
