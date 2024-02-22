@@ -2,10 +2,10 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "sTiles",
-  "bbox_bottom": 255,
+  "bbox_bottom": 831,
   "bbox_left": 0,
-  "bbox_right": 255,
-  "bbox_top": 0,
+  "bbox_right": 736,
+  "bbox_top": 32,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"81deb080-f9e2-4b35-a6c5-9bb31f44855d",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a5d0c67e-d802-4c6a-b6b5-fef45a5ac827",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 256,
+  "height": 1024,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"3b6d60c0-f8db-41d8-a758-41cd64b84d63","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"3cdd9377-5b64-401e-a6b6-28e5052e122a","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"81deb080-f9e2-4b35-a6c5-9bb31f44855d","path":"sprites/sTiles/sTiles.yy",},},},"Disabled":false,"id":"b100d729-67f6-4822-8749-370dd7a5c604","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"a5d0c67e-d802-4c6a-b6b5-fef45a5ac827","path":"sprites/sTiles/sTiles.yy",},},},"Disabled":false,"id":"fcf2eff7-38af-4b55-8964-03547fef5a9e","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 256,
+  "width": 1024,
 }

@@ -3,4 +3,16 @@ function MACROS(){
 	#macro FRAME_RATE 60;
 	#macro TILE_SIZE 16;
 	#macro ROOM_START rParent
+	#macro CARDINAL_DIR round(direction/90)
+	
+	enum ENEMYSTATE
+	{
+		IDLE,
+		WANDER,
+		CHASE,
+		ATTACK,
+		HURT,
+		DIE,
+		WAIT
+	}
 }
